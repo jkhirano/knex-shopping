@@ -14,6 +14,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use(users);
+app.use(products);
+// app.use(carts);
 
 app.listen(PORT, () => {
   console.log("Server started on PORT: ${PORT}");

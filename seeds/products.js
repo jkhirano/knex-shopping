@@ -9,19 +9,19 @@ exports.seed = function(knex) {
           title: "Lavender Oil",
           description: "To Sleep",
           inventory: "10",
-          price: "$12"
+          price: "12"
         },
         {
           title: "Pepperment Oil",
           description: "To wake up",
           inventory: "8",
-          price: "$14"
+          price: "14"
         },
         {
           title: "Orange Oil",
           description: "To get happy",
           inventory: "4",
-          price: "$11"
+          price: "11"
         }
       ]);
     });
